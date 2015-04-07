@@ -16,12 +16,12 @@ import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
-public class Main {
+public class Mainlab3client {
 	public static Socket s;
 
 	public static void main(String[] args) {
 		try {
-			Main.s = new Socket("localhost",1338);
+			Mainlab3client.s = new Socket("localhost",1338);
 		
 			ExecutorService es = Executors.newFixedThreadPool(2);
 
@@ -30,7 +30,7 @@ public class Main {
 				@Override
 				public void run() {
 					try {
-						InputStream is = Main.s.getInputStream();
+						InputStream is = Mainlab3client.s.getInputStream();
 						BufferedReader br = new BufferedReader(new InputStreamReader(is));
 						String line;
 						while ((line = br.readLine()) != null) {
@@ -51,7 +51,7 @@ public class Main {
 					String line;
 					OutputStream os;
 					try {
-						os = Main.s.getOutputStream();
+						os = Mainlab3client.s.getOutputStream();
 						while ((line = br.readLine()) != null) {
 							os.write((line+'\n').getBytes());
 							os.flush();

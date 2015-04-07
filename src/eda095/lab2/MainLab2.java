@@ -8,7 +8,7 @@ import java.util.concurrent.Executors;
 import eda095.lab1.Parser;
 import eda095.lab2.sd.SD;
 
-public class Main {
+public class MainLab2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

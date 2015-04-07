@@ -2,7 +2,7 @@ package eda095.lab3.server;
 
 import java.io.IOException;
 
-public class Main {
+public class MainLab3Server {
 
 	public static void main(String[] args) {
 		SharedServerData ssd = new SharedServerData();

@@ -1,11 +1,9 @@
 package eda095.lab1;
 import java.io.IOException;
-import java.io.InputStream;
-import java.net.URL;
 import java.util.ArrayList;
 
 
-public class Main {
+public class MainLab1 {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
