@@ -1,10 +1,10 @@
 package eda095.lab5.client;
 
-import eda095.lab5.Constants;
+import eda095.lab5.client.threads.Client;
+import eda095.lab5.client.threads.MCResponseReceiver;
+import eda095.lab5.client.threads.MCSender;
 
 import java.io.IOException;
-import java.net.DatagramPacket;
-import java.net.InetAddress;
 import java.net.MulticastSocket;
 
 public class MainLab5Client

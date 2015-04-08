@@ -1,4 +1,7 @@
-package eda095.lab5.client;
+package eda095.lab5.client.threads;
+
+import eda095.lab5.client.SharedData;
+import eda095.lab5.client.model.Host;
 
 import java.io.IOException;
 import java.net.DatagramPacket;

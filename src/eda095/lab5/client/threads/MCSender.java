@@ -1,4 +1,4 @@
-package eda095.lab5.client;
+package eda095.lab5.client.threads;
 
 import eda095.lab5.Constants;
 

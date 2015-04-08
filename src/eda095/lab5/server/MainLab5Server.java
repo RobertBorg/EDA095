@@ -1,12 +1,13 @@
-package eda095.lab5;
+package eda095.lab5.server;
 
-import eda095.lab5.server.MCServer;
-import eda095.lab5.server.Server;
+import eda095.lab5.Constants;
+import eda095.lab5.server.threads.MCServer;
+import eda095.lab5.server.threads.Server;
 
 import java.util.Random;
 import java.util.UUID;
 
-public class MainLab5
+public class MainLab5Server
 {
 
     public static void main(String[] args)

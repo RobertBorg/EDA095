@@ -1,5 +1,7 @@
 package eda095.lab5.client;
 
+import eda095.lab5.client.model.Host;
+
 import java.util.ArrayList;
 import java.util.List;
 
