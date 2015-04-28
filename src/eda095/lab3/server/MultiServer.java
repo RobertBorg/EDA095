@@ -3,11 +3,13 @@ package eda095.lab3.server;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.concurrent.ExecutorService;
 
-public class Server extends Thread {
+public class MultiServer extends Thread {
 	private ServerSocket ss;
 	private SharedServerData sd;
-	public Server(int port, SharedServerData sd) throws IOException {
+	private ExecutorService es;
+	public MultiServer(int port, SharedServerData sd) throws IOException {
 		ss = new ServerSocket(port);
 		this.sd = sd;
 	}
